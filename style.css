@@ -1,0 +1,40 @@
+
+body {
+    position:absolute;
+    left:40%;
+    top:30%;   
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+    font-size: 16px;  
+    /* background:seagreen; */
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("img.jpg");
+}
+
+span{
+    opacity: 0.5;    
+}
+
+a.knopka {
+    color: #fff;
+    text-decoration: none; 
+    user-select: none; 
+    background: rgb(212,75,56); 
+    padding: 2px 2px; 
+    outline: none; 
+    width:10px;
+    height:8px;
+  } 
+a.knopka:hover { background: rgb(232,95,76); } 
+a.knopka:active { background: rgb(152,15,0); } 
+a.disabled {
+    pointer-events: none; /* делаем ссылку неактивной */   
+    color: #999; /* цвет текста для нективной ссылки */
+}
+.speed {
+    padding-left:20px;
+}
+#list {
+    background-color: #fff
+}
